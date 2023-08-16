@@ -1,5 +1,9 @@
+import HomeTrending from "../components/HomeTrending";
+
 const Home = () => {
-    return <div>Home</div>
+    return (
+        <HomeTrending />
+    )
 }
  
 export default Home;

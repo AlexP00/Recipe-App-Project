@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     margin: 0 auto;
+    background-color: white;
     padding: 20px;
     width: 100%;
     display: flex;
@@ -51,6 +52,8 @@
 
                 &:hover {
                     color:hsl(211, 75%, 12%) ;
+                    transition: all 0.5s ease;
+
                 }
             }
 
@@ -68,12 +71,20 @@
             color:hsl(211, 75%, 12%) ;
 
             img {
-                height: 2rem;
-                width: 2rem;
+                height: 1.5rem;
+                width: 1.5rem;
             }
 
             p {
-                font-size: 1.3rem;font-weight: 700;
+                font-size: 1.2rem;
+                font-weight: 700;
+                cursor: pointer;
+
+                &:hover {
+                    color:hsl(175, 6%, 63%) ;
+                    transition: all 0.5s ease;
+                }
+
             }
         }
     }
