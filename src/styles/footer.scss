@@ -1,0 +1,56 @@
+@import '../styles/index.scss';
+
+.footer {
+    display: flex;
+    background-color: hsl(211, 75%, 12%) ;
+
+    
+
+    .icons {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-left: 6rem;
+
+        .icon-1, .icon-2, .icon-3 {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            width: 50px;
+            border: 3px solid white;
+            background-color: white;
+            
+            
+
+            img {
+                width: 25px;
+                height: 25px;
+                
+            }
+        }
+    }
+
+    .image {
+        margin-left: 580px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        h3{
+            color: white;
+            font-weight: 800;
+            font-size: 1.8rem;
+            margin-right: 2rem;
+        }
+
+        img {
+            width: 250px;
+            height: 160px;
+            border-radius: 50%;
+            margin-top: 0.4rem;
+        }
+    }
+}
