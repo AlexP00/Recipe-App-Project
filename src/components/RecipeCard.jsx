@@ -16,6 +16,7 @@ const RecipeCard = () => {
         const res = await fetch('https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast');
         const data = await res.json();
         setRecipe(data.meals)
+        console.log(data.meals)
         
         return data;
     };
@@ -34,7 +35,7 @@ const RecipeCard = () => {
 
         {recipe.map((meals) => {
             return(
-               <Link className="card" to={'/recipes'}>
+               <Link className="card" to={`/recipes/${meals.idMeal}`}>
                <div className="image">
                  <img src={meals.strMealThumb} alt={meals.strMeal} />
                </div>
