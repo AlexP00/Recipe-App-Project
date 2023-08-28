@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import '../styles/navbar.scss'
+import Recipe from "../pages/Recipe";
 
 const NavBar = () => {
     return (
@@ -10,8 +11,8 @@ const NavBar = () => {
             </div>
             <div className="right-text">
                 <div className="links">
-                <Link>Recipe</Link>
-                <Link>Populary</Link>
+                <Link to={'/recipe'}>Recipe</Link>
+                <Link to={'/populary'}>Populary</Link>
                 </div>
                 <button>
                     <img 
