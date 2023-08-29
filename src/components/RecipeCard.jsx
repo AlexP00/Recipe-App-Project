@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useEffect,useState } from "react";
 import '../styles/recipecard.scss';
 
+
 const RecipeCard = () => {
     const [recipe, setRecipe] = useState([])
     const [recipeTwo, setRecipeTwo] = useState([])
@@ -31,8 +32,10 @@ const RecipeCard = () => {
 
    
 
-    return <div className="card-container">
-
+    return (
+    
+    <div className="card-container">
+        
         {recipe.map((meals) => {
             return(
                <Link className="card" to={`/recipes/${meals.idMeal}`}>
@@ -61,7 +64,7 @@ const RecipeCard = () => {
         })}
    
     </div>
-    
+    )
 };
 
 

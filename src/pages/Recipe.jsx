@@ -1,4 +1,3 @@
-// import { useQuery } from "@tanstack/react-query";
 import RecipeCard from "../components/RecipeCard";
 
 const Recipe = () => {

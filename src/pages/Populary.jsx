@@ -1,8 +1,12 @@
 import '../styles/populary.scss';
+import BackButton from '../components/BackButton';
 
 const Populary = () => {
     return (
         <main className="populary-content">
+            <div className="button-back">
+            <BackButton />
+            </div>
             <h1>Populary Foods <span>...</span></h1>
             <div className="food">
             <div className="image">
