@@ -1,0 +1,29 @@
+@import '../styles/index.scss';
+
+
+.button-back {
+    height: 1px;
+    button {
+        all: unset;
+        margin-left: 5rem;
+        width: 100px;
+        height: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(211, 39%, 57%);
+        color: black;
+        font-size: 1.16rem;
+        font-weight: bold;
+        cursor: pointer;
+
+
+        &:hover {
+            background-color: #91c8ff;
+        }
+    
+    }
+}
