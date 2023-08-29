@@ -48,7 +48,7 @@ const RecipeCard = () => {
         })}
         {recipeTwo.map((meals) => {
             return(
-               <Link className="card" to={'/recipes'}>
+               <Link className="card" to={`/recipes/${meals.idMeal}`}>
                <div className="image">
                  <img src={meals.strMealThumb} alt={meals.strMeal} />
                </div>

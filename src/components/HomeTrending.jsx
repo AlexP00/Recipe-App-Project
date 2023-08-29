@@ -24,7 +24,7 @@ const HomeTrending = () => {
                        coat in the sauce. Nestle in the chillies and lemongrass. Bake for 35-40 minutes
                     , or until the chicken is fully cooked. Top with the peanuts to serve.
                     </p>
-                    <Link>Look Ingredient..</Link>
+                    
                 </div>
             </div>
             <div className="dish">
@@ -45,7 +45,6 @@ const HomeTrending = () => {
                      Whisk together the mustards and crème fraîche, stir 
                     into the pan and simmer for 5 minutes. Scatter over the parsley.
                     </p>
-                    <Link>Look Ingredient..</Link>
                 </div>
                 <div className="image">
                     <img src="https://dish.co.nz/assets/media/2021/06/03/Dish-Food-Fast-March-2021-Final-Selects-11-min__FillWzg1MCwxMTc0XQ.jpg" alt="dish" />
@@ -74,7 +73,6 @@ const HomeTrending = () => {
                      back when lightly pressed. Serve with the caramel 
                      sauce.
                     </p>
-                    <Link>Look Ingredient..</Link>
                 </div>
             </div>
             <div className="dish">
@@ -94,7 +92,6 @@ const HomeTrending = () => {
                       for a further ¾ hour. Add the potatoes and simmer for a final
                        20 minutes until they are cooked through.
                     </p>
-                    <Link>Look Ingredient..</Link>
                 </div>
                 <div className="image">
                     <img src="https://dish.co.nz/assets/media/images/beef-massaman__FillWzg1MCwxMTc0XQ.png" alt="dish" />
@@ -121,7 +118,6 @@ const HomeTrending = () => {
                       in the centre. Leave to cool completely in the tin.
                        The cheesecake with fall quite dramatically as it cools.
                     </p>
-                    <Link>Look Ingredient..</Link>
                 </div>
             </div>
         </main>
