@@ -34,7 +34,7 @@ const RecipeCard = () => {
 
     return (
     
-    <div className="card-container">
+    <div  className="card-container" >
         
         {recipe.map((meals) => {
             return(
