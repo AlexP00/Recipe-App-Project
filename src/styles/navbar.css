@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 -6px 7px -7px rgba(128, 128, 128, 0.775) inset;
+}
+.nav-container .left-text {
+  display: flex;
+  align-items: center;
+  padding: 0 6%;
+}
+.nav-container .left-text a {
+  font-size: 2.1rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(211, 75%, 12%);
+}
+.nav-container .left-text a span {
+  color: hsl(175, 6%, 63%);
+}
+.nav-container .right-text {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 3%;
+}
+.nav-container .right-text .links {
+  display: flex;
+  margin-right: 70px;
+  gap: 30px;
+}
+.nav-container .right-text .links a {
+  display: flex;
+  font-weight: 400;
+  color: hsl(0, 0%, 70%);
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 400;
+}
+.nav-container .right-text .links a:hover {
+  color: hsl(211, 75%, 12%);
+  transition: all 0.5s ease;
+}
+.nav-container .right-text button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 700;
+  color: hsl(211, 75%, 12%);
+}
+.nav-container .right-text button img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.nav-container .right-text button p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.nav-container .right-text button p:hover {
+  color: hsl(175, 6%, 63%);
+  transition: all 0.5s ease;
+}/*# sourceMappingURL=navbar.css.map */

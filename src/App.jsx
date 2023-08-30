@@ -5,6 +5,7 @@ import Recipe from './pages/Recipe';
 import Populary from './pages/Populary';
 import Recipes from './pages/Recipes';
 
+
 // Other
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ import './styles/index.scss';
 
 function App() {
   return (  <main className='app-container'>
+    
     <Router>
        <NavBar /> 
       <Routes>
@@ -24,6 +26,7 @@ function App() {
         <Route path='/recipes/:id' element={<Recipes />}/>
       </Routes>
     </Router>
+    
   </main>
   )
 }

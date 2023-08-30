@@ -4,6 +4,7 @@ import '../styles/recipes.scss'
 import BackButton from "../components/BackButton";
 
 const Recipes = () => {
+
   const { id } = useParams();
 
   const [onlyRecipe, setOnlyRecipe] = useState([]);
@@ -24,7 +25,7 @@ const Recipes = () => {
 
   return (
     
-    <div className="container">
+    <div className={"container"}>
       <div className="button-back">
         <BackButton />
       </div>

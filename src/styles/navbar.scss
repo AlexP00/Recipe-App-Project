@@ -57,35 +57,18 @@
                 }
             }
 
-            
-
         }
 
-
-        button {
-            all: unset;
-            display: flex;
-            align-items: center;
-            gap: 7px;
-            font-weight: 700;
-            color:hsl(211, 75%, 12%) ;
-
-            img {
-                height: 1.5rem;
-                width: 1.5rem;
-            }
-
-            p {
-                font-size: 1.2rem;
-                font-weight: 700;
-                cursor: pointer;
-
-                &:hover {
-                    color:hsl(175, 6%, 63%) ;
-                    transition: all 0.5s ease;
-                }
-
+        .img{
+            img{
+                width: 50px;
+                height: 50px;
             }
         }
+
+
     }
+
+    
 }
+

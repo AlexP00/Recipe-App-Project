@@ -28,6 +28,13 @@ html{
                 height: 350px;
                 border-top-left-radius: 15px;
                 border-bottom-left-radius: 15px;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.1);
+                    border-top-right-radius: 15px;
+                    border-bottom-right-radius: 15px;
+                }
             }
         }
 
@@ -64,6 +71,19 @@ html{
                 span {
                     color: black;
                 }
+            }
+        }
+    }
+}
+
+@media screen {
+    @media (max-width: 600px) {
+        .food {
+            display: flex;
+            flex-direction: column;
+
+            .info {
+                width: 300%;
             }
         }
     }
